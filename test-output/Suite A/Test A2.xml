@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="VAIO-VAIO" name="testSuiteA.TestA2" tests="3" failures="1" timestamp="12 Oct 2015 14:16:54 GMT" time="0.007" errors="0">
+  <testcase name="testA2_1" time="0.0" classname="testSuiteA.TestA2"/>
+  <testcase name="testA2_2" time="0.001" classname="testSuiteA.TestA2">
+    <failure type="java.lang.AssertionError" message="failed test case ">
+      <![CDATA[java.lang.AssertionError: failed test case 
+	at testSuiteA.TestA2.testA2_2(TestA2.java:16)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testA2_3" time="0.0" classname="testSuiteA.TestA2"/>
+</testsuite>

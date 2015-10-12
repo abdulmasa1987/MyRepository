@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite A]" parallel="false">
+  <listeners>
+    <listener class-name="customreports.CustomReporter"/>
+  </listeners>
+  <test name="Test A1(failed)">
+    <classes>
+      <class name="testSuiteA.TestA1">
+        <methods>
+          <include name="testA1_3"/>
+          <include name="testA1_1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Test A2(failed)">
+    <classes>
+      <class name="testSuiteA.TestA2">
+        <methods>
+          <include name="testA2_2"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
